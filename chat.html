@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
 </head>
 <body>
-    <header class="header-top">
+    <header class="header__top">
         <div class="header__column">
             <i class="fas fa-plane"></i>
             <i class="fas fa-wifi"></i>
@@ -23,9 +23,11 @@
             <span class="header__battery">66% <i class="fas fa-battery-three-quarters"></i></span>
         </div>
     </header>
-    <header class="header-bottom">
+    <header class="header__bottom">
         <div class="header__column">
-            <i class="fas fa-chevron-left fa-lg"></i>
+            <a href="chats.html">
+                <i class="fas fa-chevron-left fa-lg"></i>
+            </a>
         </div>
         <div class="header__column">
             <span class="header__title">Irene</span>
@@ -35,5 +37,38 @@
             <i class="fas fa-bars fa-lg"></i>
         </div>
     </header>
+    <main class="chat">
+        <div class="date-divider">
+            <span class="date-divider__text">
+                Wednesday, October 31, 2018
+            </span>
+        </div>
+        <div class="chat__message chat__message--from-me">
+            <span class="chat__message-time">11:28</span>
+            <span class="chat__message-body">
+                Ice Cream Cake!
+            </span>
+        </div>
+        <div class="chat__message chat__message--to-me">
+            <img src="images/wendy.jpg" alt="" class="chat__message-avartar">
+            <div class="chat__message-center">
+                <h3 class="chat__message-username">Irene</h3>
+                <span class="chat__message-body">
+                    Power UP! Red Taste~
+                </span>
+            </div>
+            <span class="chat__message-time">11:44</span>
+        </div>
+        <div class="type-message">
+            <i class="fas fa-plus fa-2x"></i>
+            <div class="type-message__input">
+                <input type="text">
+                <i class="far fa-grin-squint fa-lg"></i>
+                <span class="type-message__record">
+                    <i class="fas fa-microphone fa-lg"></i>
+                </span>
+            </div>
+        </div>
+    </main>
 </body>
 </html>
