@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
 </head>
 <body>
-    <header class="header-top">
+    <header class="header__top">
         <div class="header__column">
             <i class="fas fa-plane"></i>
             <i class="fas fa-wifi"></i>
@@ -23,7 +23,7 @@
             <span class="header__battery">66% <i class="fas fa-battery-three-quarters"></i></span>
         </div>
     </header>
-    <header class="header-bottom">
+    <header class="header__bottom">
         <div class="header__column">
             
         </div>
@@ -34,31 +34,110 @@
             <i class="fas fa-cog fa-lg"></i>
         </div>
     </header>
+    <main class="more">
+        <header class="more__header">
+            <div class="more__header-column">
+                <img src="images/wendy.jpg" class="more__user-avatar">
+                <div class="more__header-info">
+                    <h3 class="more__header-title">Wendy</h3>
+                    <span class="more__header-subtitle">wendy@redvelvet.taste</span>
+                </div>
+            </div>
+            <i class="far fa-comment-alt fa-lg"></i>
+        </header>
+        <section class="more__options">
+            <div class="more__option">
+                <i class="far fa-smile-beam fa-lg"></i>
+                <span class="more__option-title">Emoticons</span>
+            </div>
+            <div class="more__option">
+                <i class="fas fa-palette fa-lg"></i>
+                <span class="more__option-title">Themes</span>
+            </div>
+            <div class="more__option">
+                <i class="fas fa-plug fa-lg"></i>
+                <span class="more__option-title">Plus Friends</span>
+            </div>
+            <div class="more__option">
+                <i class="far fa-user-circle"></i>
+                <span class="more__option-title">Account</span>
+            </div>
+        </section>
+        <section class="more__plus-friends">
+            <header class="plus-friends__header">
+                <h2 class="plus-friends__title">Plus Friends</h2>
+                <span class="plus-friends__learn-more">
+                    <i class="fas fa-info-circle"></i>
+                    Learn More
+                </span>
+            </header>
+            <div class="plus-friends__items">
+                <div class="plus-friends__item">
+                    <i class="fas fa-utensils"></i>
+                    <span class="plus-friends__item-title">Order</span>
+                </div>
+                <div class="plus-friends__item">
+                    <i class="fas fa-store"></i>
+                    <span class="plus-friends__item-title">Store</span>
+                </div>
+                <div class="plus-friends__item">
+                    <i class="fas fa-tv"></i>
+                    <span class="plus-friends__item-title">TV Channel/Radio</span>
+                </div>
+                <div class="plus-friends__item">
+                    <i class="fas fa-pencil-alt"></i>
+                    <span class="plus-friends__item-title">Creation</span>
+                </div>
+                <div class="plus-friends__item">
+                    <i class="fas fa-graduation-cap"></i>
+                    <span class="plus-friends__item-title">Education</span>
+                </div>
+                <div class="plus-friends__item">
+                    <i class="fas fa-city"></i>
+                    <span class="plus-friends__item-title">Politics/Society</span>
+                </div>
+                <div class="plus-friends__item">
+                    <i class="fas fa-money-bill-wave"></i>
+                    <span class="plus-friends__item-title">Finance</span>
+                </div>
+                <div class="plus-friends__item">
+                    <i class="fas fa-video"></i>
+                    <span class="plus-friends__item-title">Movies/Music</span>
+                </div>
+            </div>
+        </section>
+        <section class="more__options">
+            <div class="more__option">
+                <img src="images/lab_logo.jpg" class="more__option-image">
+                <span class="more__option-title">Laboom</span>
+            </div>
+            <div class="more__option">
+                <img src="images/bp_logo.png" class="more__option-image">
+                <span class="more__option-title">Black Pink</span>
+            </div>
+            <div class="more__option">
+                <img src="images/twice_logo.png" class="more__option-image">
+                <span class="more__option-title">Twice</span>
+            </div>
+        </section>
+    </main>
     <nav class="tab-bar">
-        <span class="tab-bar__tab">
-            <a href="index.html">
-                <i class="fas fa-user-alt fa-2x"></i>
-                <span class="tab-bar__tab-title">Friends</span>
-            </a>
-        </span>
-        <span class="tab-bar__tab">
-            <a href="chats.html">
-                <i class="fas fa-comments fa-2x"></i>
-                <span class="tab-bar__tab-title">Chats</span>
-            </a>
-        </span>
-        <span class="tab-bar__tab">
-            <a href="find.html">
-                <i class="fas fa-search fa-2x"></i>
-                <span class="tab-bar__tab-title">Find</span>
-            </a>
-        </span>
-        <span class="tab-bar__tab tab-bar__tab--selected">
-            <a href="more.html">
-                <i class="fas fa-ellipsis-h fa-2x"></i>
-                <span class="tab-bar__tab-title">More</span>
-            </a>
-        </span>
+        <a href="index.html" class="tab-bar__tab">
+            <i class="fas fa-user fa-lg"></i>
+            <span class="tab-bar__title">Friends</span>
+        </a>
+        <a href="chats.html" class="tab-bar__tab">
+            <i class="fas fa-comments"></i>
+            <span class="tab-bar__title">Chats</span>
+        </a>
+        <a href="find.html" class="tab-bar__tab">
+            <i class="fas fa-search fa-lg"></i>
+            <span class="tab-bar__title">Find</span>
+        </a>
+        <a href="more.html" class="tab-bar__tab tab-bar__tab--selected">
+            <i class="fas fa-ellipsis-h fa-lg"></i>
+            <span class="tab-bar__title">More</span>
+        </a>
     </nav>
 </body>
 </html>
