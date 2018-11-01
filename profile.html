@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
 </head>
 <body>
-    <header class="header-top">
+    <header class="header__top">
         <div class="header__column">
             <i class="fas fa-plane"></i>
             <i class="fas fa-wifi"></i>
@@ -23,9 +23,11 @@
             <span class="header__battery">66% <i class="fas fa-battery-three-quarters"></i></span>
         </div>
     </header>
-    <header class="header-bottom">
+    <header class="header__bottom">
         <div class="header__column">
-            <i class="fas fa-times fa-2x"></i>
+            <a href="index.html">
+                <i class="fas fa-times fa-2x"></i>
+            </a>
         </div>
         <div class="header__column">
         </div>
@@ -33,5 +35,29 @@
             <i class="fas fa-book-dead fa-2x"></i>
         </div>
     </header>
+    <main class="profile">
+        <header class="profile__header">
+            <img src="images/wendy.jpg" alt="" class="profile__image">
+            <h3 class="profile__title">Wendy</h3>
+        </header>
+        <input type="text" placeholder="wendy@redvelvet.taste">
+        <!-- <div class="profile__input">
+            <input type="text" placeholder="wendy@redvelvet.taste">
+        </div> -->
+        <div class="profile__actions">
+            <div class="profile__aciton">
+                <span class="profile__action-circle">
+                    <i class="fas fa-comment fa-lg"></i>
+                </span>
+                <span class="profile__action-title">My Chatroom</span>
+            </div>
+            <div class="profile__aciton">
+                <span class="profile__action-circle">
+                    <i class="fas fa-pencil-alt"></i>
+                </span>
+                <span class="profile__action-title">Edit Profile</span>
+            </div>
+        </div>
+    </main>
 </body>
 </html>
