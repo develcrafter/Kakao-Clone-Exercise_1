@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
 </head>
 <body>
-    <header class="header-top">
+    <header class="header__top">
         <div class="header__column">
             <i class="fas fa-plane"></i>
             <i class="fas fa-wifi"></i>
@@ -25,7 +25,7 @@
     </header>
     <header class="header-bottom">
         <div class="header__column">
-            <span>Edit</span>
+            <span class="header__text">Edit</span>
         </div>
         <div class="header__column">
             <span class="header__title">Chats <i class="fas fa-caret-down"></i></span>
@@ -34,31 +34,74 @@
             
         </div>
     </header>
+    <main class="chats">
+        <div class="search-bar">
+            <i class="fas fa-search"></i>
+            <input type="text" placeholder="Find friends, chats, Plus Friends">
+        </div>
+        <ul class="chats__list">
+            <li class="chats__chat">
+                <a href="chat.html">
+                    <div class="chat__content">
+                        <img src="images/wendy.jpg" alt="" class="chat__chatter">
+                        <div class="chat__preview">
+                            <h3 class="chat__user">Irene</h3>
+                            <span class="chat__last-messange">
+                                Ice Cream Cake!!
+                            </span>
+                        </div>
+                    </div>
+                    <span class="chat__date-time">
+                        10:25
+                    </span>
+                </a>
+            </li>
+            <li class="chats__chat">
+                <a href="chat.html">
+                    <div class="chat__content">
+                        <img src="images/wendy.jpg" alt="" class="chat__chatter">
+                        <div class="chat__preview">
+                            <h3 class="chat__user">KakaoTalk</h3>
+                            <span class="chat__last-messange">
+                                You logged into KakaoTalk PC
+                            </span>
+                        </div>
+                    </div>
+                    <span class="chat__date-time">
+                        Oct 31
+                    </span>
+                </a>                
+            </li>
+        </ul>
+        <div class="chat__btn">
+            <i class="fas fa-comment fa-lg"></i>
+        </div>
+    </main>
     <nav class="tab-bar">
-        <span class="tab-bar__tab">
-            <a href="index.html">
-                <i class="fas fa-user-alt fa-2x"></i>
-                <span class="tab-bar__tab-title">Friends</span>
-            </a>
-        </span>
-        <span class="tab-bar__tab tab-bar__tab--selected">
-            <a href="chats.html">
-                <i class="fas fa-comments fa-2x"></i>
-                <span class="tab-bar__tab-title">Chats</span>
-            </a>
-        </span>
-        <span class="tab-bar__tab">
-            <a href="find.html">
-                <i class="fas fa-search fa-2x"></i>
-                <span class="tab-bar__tab-title">Find</span>
-            </a>
-        </span>
-        <span class="tab-bar__tab">
-            <a href="more.html">
-                <i class="fas fa-ellipsis-h fa-2x"></i>
-                <span class="tab-bar__tab-title">More</span>
-            </a>
-        </span>
+        <a href="index.html" class="tab-bar__tab">
+            <i class="fas fa-user fa-lg"></i>
+            <span class="tab-bar__title">
+                Friends
+            </span>
+        </a>
+        <a href="chats.html" class="tab-bar__tab tab-bar__tab--selected">
+            <i class="fas fa-comments fa-lg"></i>
+            <span class="tab-bar__title">
+                Chats
+            </span>
+        </a>
+        <a href="find.html" class="tab-bar__tab">
+            <i class="fas fa-search fa-lg"></i>
+            <span class="tab-bar__title">
+                Find
+            </span>
+        </a>
+        <a href="more.html" class="tab-bar__tab">
+            <i class="fas fa-ellipsis-h fa-lg"></i>
+            <span class="tab-bar__title">
+                More
+            </span>
+        </a>
     </nav>
 </body>
 </html>
