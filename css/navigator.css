@@ -15,6 +15,11 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    transition: transform .2s ease-out;
+}
+
+.tab-bar .tab-bar__tab:hover{
+    transform: scale(1.1);
 }
 
 .tab-bar .tab-bar__tab.tab-bar__tab--selected{
