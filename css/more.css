@@ -17,6 +17,10 @@
     align-items: center;
 }
 
+.more .more__header i{
+    color: #4d3131;
+}
+
 .more__header-column {
     display: flex;
     align-items: center;
