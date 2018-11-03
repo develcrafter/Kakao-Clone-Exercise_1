@@ -1,0 +1,7 @@
+/* font */
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR:400,700|Open+Sans:400,600&subset=korean');
+/* css */
+@import 'reset.css';
+/* global style have to be located after 'reset.css' */
+@import 'globals.css';
+@import 'header.css';

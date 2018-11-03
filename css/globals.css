@@ -1,0 +1,9 @@
+body {
+    /* font-family: 'Open Sans', sans-serif; */
+    font-family:  'Open Sans', 'Noto Sans KR', sans-serif;
+    padding-top: 80px;
+}
+
+* {
+    box-sizing: border-box;
+}
