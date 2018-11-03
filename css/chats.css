@@ -1,0 +1,50 @@
+.chats__list .chats__chat{
+    padding: 15px;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.chats__chat .chat__info {
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    justify-content: space-between;
+}
+
+.chats__chat .chat__content {
+    display: flex;
+
+}
+
+.chat__content img{
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.chat__preview .chat__user{
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 3px;
+}
+
+.chat__preview .chat__last-message {
+    font-size: 13px;
+    color: #848484;
+}
+
+.chat__info .chat__date-time{
+    font-size: 12px;
+    color: #b4b4b4;
+}
+
+.chat__btn {
+    background-color: #ffde29;
+    padding: 20px;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 70px;
+    right: 20px;
+    color: #4c3133;
+    box-shadow: 0px 2px 2px 1px rgba(0,0,0,0.1);
+}

@@ -42,7 +42,8 @@
 }
 
 .friends__section-row .friends__section-name{
-    font-weight: 600;
+    /* font-weight: 600; */
+    font-size: 18px;
 }
 
 .friends__section-row.with-tagline .friends__section-tagline{
