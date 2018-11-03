@@ -5,6 +5,12 @@
     background-color: #4d3131;
     color: white;
     padding: 5px 5px 20px 10px;
+    z-index: 2;
+}
+
+.top-header a{
+    text-decoration: none;
+    color: inherit;
 }
 
 .top-header .header__top,

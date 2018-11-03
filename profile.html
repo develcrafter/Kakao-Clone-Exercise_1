@@ -8,8 +8,8 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
 </head>
-<body>
-    <header class="top-header">
+<body class="profile-body">
+    <header class="top-header profile__top-header">
         <header class="header__top">
             <div class="header__column">
                 <i class="fas fa-plane"></i>
@@ -40,25 +40,26 @@
     </header>
     <main class="profile">
         <header class="profile__header">
-            <img src="images/wendy.jpg" alt="" class="profile__image">
-            <h3 class="profile__title">Wendy</h3>
-        </header>
-        <input type="text" placeholder="wendy@redvelvet.taste">
-        <!-- <div class="profile__input">
-            <input type="text" placeholder="wendy@redvelvet.taste">
-        </div> -->
-        <div class="profile__actions">
-            <div class="profile__aciton">
-                <span class="profile__action-circle">
-                    <i class="fas fa-comment fa-lg"></i>
-                </span>
-                <span class="profile__action-title">My Chatroom</span>
+            <div class="profile__header-container">
+                <img src="images/wendy.jpg" alt="" class="profile__image">
+                <h3 class="profile__title">Wendy</h3>
             </div>
-            <div class="profile__aciton">
-                <span class="profile__action-circle">
-                    <i class="fas fa-pencil-alt"></i>
-                </span>
-                <span class="profile__action-title">Edit Profile</span>
+        </header>
+        <div class="profile__body-container">
+            <input type="text" placeholder="wendy@redvelvet.taste">
+            <div class="profile__actions">
+                <div class="profile__aciton">
+                    <span class="profile__action-circle">
+                        <i class="fas fa-comment fa-lg"></i>
+                    </span>
+                    <span class="profile__action-title">My Chatroom</span>
+                </div>
+                <div class="profile__aciton">
+                    <span class="profile__action-circle">
+                        <i class="fas fa-pencil-alt fa-lg"></i>
+                    </span>
+                    <span class="profile__action-title">Edit Profile</span>
+                </div>
             </div>
         </div>
     </main>
