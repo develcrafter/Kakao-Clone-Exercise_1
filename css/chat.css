@@ -1,0 +1,136 @@
+.chat-body{
+    padding-bottom: 0px;
+}
+
+.chat__top-header{
+    background-color: #95b5d6;
+    color: black;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+.chat{
+    height: 100vh;
+    width: 100%;
+    background-color: #95b5d6;
+    padding-top: 20px;
+}
+
+.chat .date-divider{
+    text-align: center;
+    font-size: 12px;
+    color: rgba(0,0,0,0.7);
+    margin-bottom: 15px;
+}
+
+.chat__message {
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 10px;
+    padding-right: 10px;
+    width: 100%;
+}
+
+.chat__message .chat__message-time{
+    font-size: 12px;
+    color: rgba(0,0,0,0.4);
+    margin: 2px 4px;
+}
+
+.chat__message .chat__message-body{
+    
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 0.95rem;
+    font-weight: 600;
+}
+
+.chat__message--from-me {
+    justify-content: flex-end;
+}
+
+.chat__message--from-me .chat__message-time {
+    
+}
+
+.chat__message--from-me .chat__message-body {
+    background-color: #ffdc00;
+    margin-right: 5px;
+    /* width: 65%; */
+}
+
+.chat__message--to-me {
+    justify-content: flex-start;
+}
+
+.chat__message--to-me img{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin-left: 8px;
+    margin-right: 10px;
+    align-self: flex-start;
+}
+
+.chat__message--to-me .chat__message-center{
+    display: flex;
+    flex-direction: column;
+}
+
+.chat__message--to-me .chat__message-center .chat__message-username{
+    font-size: 0.85rem;
+    font-weight: 600;
+}
+
+.chat__message--to-me .chat__message-center .chat__message-body{
+    background-color: white;
+    margin-top: 5px;
+}
+
+.type-message {
+    position: fixed;
+    bottom: 0;
+    background-color: #eeeeee;
+    width: 100%;
+    display: flex;
+    padding: 10px 5px 10px 15px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.type-message .fa-plus{
+    width: 40px;
+    color: #747474;
+}
+
+.type-message__input {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.type-message__input input {
+    width: 100%;
+    position: relative;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.type-message__input input:focus{
+    outline: none;
+}
+
+.type-message__input .fa-grin-squint{
+    position: absolute;
+    right: 60px;
+    color: #747474;
+}
+
+.type-message__record {
+    background-color: #ffdc00;
+    padding: 10px;  
+    position:relative;
+    right: 10px;
+    cursor: pointer;
+    color: #68423e;
+}
