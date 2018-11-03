@@ -3,6 +3,12 @@
     border-bottom: 1px solid #eeeeee;
 }
 
+
+/* How make border partly under message?? is this hint? */
+/* .chats__list .chats__chat:last-child .chat__content img{
+    width: 100px;
+} */
+
 .chats__chat .chat__info {
     text-decoration: none;
     color: inherit;
@@ -12,7 +18,7 @@
 
 .chats__chat .chat__content {
     display: flex;
-
+    
 }
 
 .chat__content img{
@@ -36,6 +42,7 @@
 .chat__info .chat__date-time{
     font-size: 12px;
     color: #b4b4b4;
+    padding-top: 3px;
 }
 
 .chat__btn {
