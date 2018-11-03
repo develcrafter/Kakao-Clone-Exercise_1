@@ -5,3 +5,4 @@
 /* global style have to be located after 'reset.css' */
 @import 'globals.css';
 @import 'header.css';
+@import 'navigator.css';
